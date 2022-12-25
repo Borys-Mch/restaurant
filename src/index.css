@@ -12,3 +12,9 @@ body {
     color: #1f1f1f;
     background-color: #f1f1f1;
 }
+
+@layer components {
+    .footertitle {
+        @apply text-xs font-bold text-left
+    }
+}
