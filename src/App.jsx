@@ -1,13 +1,11 @@
-import { useState } from "react";
 import { Route, Routes } from "react-router";
-import MainLayout from "../layouts/MainLayout";
-import Dish from "../pages/Dish";
-import Home from "../pages/Home";
+import MainLayout from "./layouts/MainLayout";
+import DishesList from "./pages/DishesList";
+import Dish from "./pages/Dish";
+import Home from "./pages/Home";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <Routes>
