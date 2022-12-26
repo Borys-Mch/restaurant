@@ -9,6 +9,8 @@ import dish3 from "./dish3.svg";
 import dish4 from "./dish4.svg";
 import dish21 from "./dish21.svg";
 import dish5 from "./dish5.svg";
+import check from "./check.svg";
+import chef from "./chef.svg";
 import maskgroup from "./maskgroup.svg";
 
 export {
@@ -23,5 +25,7 @@ export {
   dish4,
   dish21,
   dish5,
+  check,
+  chef,
   maskgroup,
 };

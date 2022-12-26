@@ -1,4 +1,5 @@
 import Baner from "../components/Baner";
+import ExpectsChef from "../components/ExpectsChef";
 import SpecialDishes from "../components/SpecialDishes";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Baner />
       <SpecialDishes />
+      <ExpectsChef />
     </div>
   );
 };
