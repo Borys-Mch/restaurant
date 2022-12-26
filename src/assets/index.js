@@ -12,6 +12,11 @@ import dish5 from "./dish5.svg";
 import check from "./check.svg";
 import chef from "./chef.svg";
 import maskgroup from "./maskgroup.svg";
+import cust1 from "./cust1.png";
+import cust2 from "./cust2.png";
+import cust3 from "./cust3.png";
+import cust4 from "./cust4.png";
+import cust5 from "./cust5.png";
 
 export {
   facebook,
@@ -28,4 +33,9 @@ export {
   check,
   chef,
   maskgroup,
+  cust1,
+  cust2,
+  cust3,
+  cust4,
+  cust5,
 };

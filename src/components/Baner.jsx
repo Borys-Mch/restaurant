@@ -18,9 +18,17 @@ const Baner = () => {
           <BookButton className="h-14" />
         </div>
         <div className="flex flex-wrap md:pt-24 pt-10">
-          <img src={facebook} alt="facebook" className="w-9 h-9 mr-4" />
-          <img src={instagram} alt="instagram" className="w-9 h-9 mr-4" />
-          <img src={twitter} alt="twitter" className="w-9 h-9" />
+          <img
+            src={facebook}
+            alt="facebook"
+            className="w-9 h-9 mr-4 cursor-pointer"
+          />
+          <img
+            src={instagram}
+            alt="instagram"
+            className="w-9 h-9 mr-4 cursor-pointer"
+          />
+          <img src={twitter} alt="twitter" className="w-9 h-9 cursor-pointer" />
         </div>
       </div>
 
