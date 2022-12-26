@@ -4,7 +4,7 @@ import { navBar } from "../constants";
 
 const Header = () => {
   return (
-    <div className="flex flex-row justify-between py-16">
+    <div className="container flex flex-row justify-between py-16">
       <img className="hidden md:block h-[55px]" src={logo} alt="logo" />
       <img className="block md:hidden h-[55px]" src={icon} alt="logo" />
       <nav className="md:flex hidden items-end pb-3">

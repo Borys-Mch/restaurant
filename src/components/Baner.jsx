@@ -4,7 +4,7 @@ import MenuButton from "./MenuButton";
 
 const Baner = () => {
   return (
-    <div className="flex md:flex-row flex-col-reverse md:py-32 py-0">
+    <div className="container flex md:flex-row flex-col-reverse md:py-32 py-0">
       <div className="w-full md:w-[50%] flex flex-col justify-center md:pt-0 pt-16">
         <h1 className="font-david font-bold md:text-7xl text-4xl text-left">
           We provide the best food for you

@@ -3,7 +3,7 @@ import { footerDishes, footerNavigation } from "../constants";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col">
+    <div className="container flex flex-col">
       <div className="flex flex-wrap">
         <div className="w-full md:w-[40%]">
           <img className="hidden md:block h-[55px]" src={logo} alt="logo" />

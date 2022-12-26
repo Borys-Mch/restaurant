@@ -14,7 +14,13 @@ body {
 }
 
 @layer components {
+    .container {
+        @apply max-w-7xl my-0 mx-auto py-0 px-8
+    }
     .footertitle {
         @apply text-xs font-bold text-left
+    }
+    .h2title {
+        @apply text-6xl font-david font-bold
     }
 }

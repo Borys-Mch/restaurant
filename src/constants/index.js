@@ -1,3 +1,5 @@
+import { dish1, dish2, dish3, dish4 } from "../assets";
+
 export const navBar = [
   {
     id: "home",
@@ -56,5 +58,40 @@ export const footerDishes = [
   {
     id: "lumpia",
     title: "Lumpia w/Suace",
+  },
+];
+
+export const dishes = [
+  {
+    slug: "lumpia",
+    title: "Lumpia with Suace",
+    descr:
+      "Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor",
+    price: "14",
+    img: `${dish1}`,
+  },
+  {
+    slug: "fish",
+    title: "Fish and Veggie",
+    descr:
+      "Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor",
+    price: "10",
+    img: `${dish2}`,
+  },
+  {
+    slug: "tofu",
+    title: "Tofu Chili",
+    descr:
+      "Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor",
+    price: "12",
+    img: `${dish3}`,
+  },
+  {
+    slug: "egg",
+    title: "Egg and Cocumber",
+    descr:
+      "Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor",
+    price: "11",
+    img: `${dish4}`,
   },
 ];
