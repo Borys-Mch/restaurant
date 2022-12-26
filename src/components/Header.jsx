@@ -1,14 +1,13 @@
-import logo from "../assets/logo.png";
-import icon from "../assets/icon.png";
+import { logo, icon } from "../assets";
 import BookButton from "./BookButton";
 import { navBar } from "../constants";
 
 const Header = () => {
   return (
-    <div className="flex flex-row justify-between pt-16">
+    <div className="flex flex-row justify-between py-16">
       <img className="hidden md:block h-[55px]" src={logo} alt="logo" />
       <img className="block md:hidden h-[55px]" src={icon} alt="logo" />
-      <nav className="flex items-end pb-3">
+      <nav className="md:flex hidden items-end pb-3">
         <ul className="flex flex-row justify-between">
           {navBar.map((nav, index) => (
             <li
@@ -19,7 +18,7 @@ const Header = () => {
           ))}
         </ul>
       </nav>
-      <BookButton />
+      <BookButton className="h-16" />
     </div>
   );
 };

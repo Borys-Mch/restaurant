@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png";
+import { logo, facebook, instagram, twitter } from "../assets";
 import { footerDishes, footerNavigation } from "../constants";
 
 const Footer = () => {
@@ -52,8 +52,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex w-full md:w-[30%] pt-8">
+        <div className="flex flex-col w-full md:w-[30%] pt-8">
           <h6 className="footertitle">FOLLOW US</h6>
+          <div className="flex flex-wrap pt-6">
+            <img src={facebook} alt="facebook" className="w-9 h-9 mr-4" />
+            <img src={instagram} alt="instagram" className="w-9 h-9 mr-4" />
+            <img src={twitter} alt="twitter" className="w-9 h-9" />
+          </div>
         </div>
       </div>
 
