@@ -1,10 +1,20 @@
-import { check, chef } from "../assets";
+import { check, chef, bg14, bg15 } from "../assets";
 import BookButton from "./BookButton";
 import MenuButton from "./MenuButton";
 
 const ExpectsChef = () => {
   return (
-    <div className="container flex md:flex-row flex-col-reverse pb-28">
+    <div className="container relative flex md:flex-row flex-col-reverse pb-28">
+      <img
+        src={bg14}
+        alt={bg14}
+        className="absolute top-[-50px] left-[-100px]"
+      />
+      <img
+        src={bg15}
+        alt={bg15}
+        className="absolute md:top-[-50px] top-[350px]"
+      />
       <div className="flex flex-col justify-center md:w-[60%] w-full">
         <h2 className="h2title text-left">Our Expects Chef</h2>
         <p className="text-left max-w-sm pt-5">

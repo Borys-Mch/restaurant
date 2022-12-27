@@ -1,12 +1,13 @@
-import { logo, facebook, instagram, twitter, bg } from "../assets";
+import { logo, facebook, instagram, twitter, bg17 } from "../assets";
 import { footerDishes, footerNavigation } from "../constants";
 
 const Footer = () => {
   return (
     <div className="container flex flex-col">
       <div className="bg-footer-form bg-cover rounded-3xl relative top-[-250px]">
-        <h3 className="text-white text-5xl text-center font-david font-bold pt-24">
-          Get Or Promo Code by <br /> Subscribing To our Newsletter
+        <h3 className="text-white lg:text-5xl text-3xl text-center font-david font-bold pt-24">
+          Get Or Promo Code by <br className="lg:block hidden" /> Subscribing To
+          our Newsletter
         </h3>
         <div className="flex flex-row max-w-2xl bg-white py-3 px-4 my-14 rounded-2xl mx-auto">
           <input
@@ -80,13 +81,14 @@ const Footer = () => {
 
       <hr className="my-12 border-gray-300" />
 
-      <div className="flex flex-1 flex-grow justify-between">
+      <div className="flex flex-1 md:flex-row flex-col justify-between text-[#5C6574]">
         <p>© 2022 Restaurants. All Right Reserved.</p>
         <div className="flex">
-          <p className="pr-10">Terms of Service</p>
-          <p>Privacy Policy</p>
+          <p className="md:pr-10 pr-5 md:pt-0 pt-5">Terms of Service</p>
+          <p className="md:pt-0 pt-5">Privacy Policy</p>
         </div>
       </div>
+      <img src={bg17} alt={bg17} className="absolute md:block hidden -z-10" />
     </div>
   );
 };

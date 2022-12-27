@@ -21,6 +21,6 @@ body {
         @apply text-xs font-bold text-left
     }
     .h2title {
-        @apply md:text-6xl text-4xl font-david font-bold
+        @apply lg:text-6xl text-4xl font-david font-bold
     }
 }
