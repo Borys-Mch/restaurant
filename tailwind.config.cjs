@@ -7,6 +7,9 @@ module.exports = {
       david: "David Libre, serif",
       inter: "Inter, sans-serif",
     },
+    backgroundImage: {
+      "footer-form": "url('./src/assets/bg.svg')",
+    },
   },
   plugins: [],
 };

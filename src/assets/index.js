@@ -17,6 +17,8 @@ import cust2 from "./cust2.png";
 import cust3 from "./cust3.png";
 import cust4 from "./cust4.png";
 import cust5 from "./cust5.png";
+import star from "./star.svg";
+import bg from "./bg.svg";
 
 export {
   facebook,
@@ -38,4 +40,6 @@ export {
   cust3,
   cust4,
   cust5,
+  star,
+  bg,
 };

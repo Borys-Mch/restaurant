@@ -1,10 +1,26 @@
-import { logo, facebook, instagram, twitter } from "../assets";
+import { logo, facebook, instagram, twitter, bg } from "../assets";
 import { footerDishes, footerNavigation } from "../constants";
 
 const Footer = () => {
   return (
     <div className="container flex flex-col">
-      <div className="flex flex-wrap">
+      <div className="bg-footer-form bg-cover rounded-3xl relative top-[-250px]">
+        <h3 className="text-white text-5xl text-center font-david font-bold pt-24">
+          Get Or Promo Code by <br /> Subscribing To our Newsletter
+        </h3>
+        <div className="flex flex-row max-w-2xl bg-white py-3 px-4 my-14 rounded-2xl mx-auto">
+          <input
+            type="text"
+            placeholder="Enter your email"
+            className=" w-full"
+          />
+          <button className="bg-orange-500 p-4 rounded-2xl text-white font-bold">
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+      <div className="flex flex-wrap mt-[-200px]">
         <div className="w-full md:w-[40%]">
           <img className="hidden md:block h-[55px]" src={logo} alt="logo" />
           <p className="pt-5 text-justify text-[#5C6574]">
