@@ -12,8 +12,21 @@ import BookButton from "./BookButton";
 import MenuButton from "./MenuButton";
 
 const Baner = () => {
+  const str = "FOODSDELICIOSE ";
+  const textRnd = str.split("").map((char, i) => (
+    <span
+      key={i}
+      style={{ transform: `rotate(${i * 23}deg)`, transformOrigin: `0 70px` }}
+      className="absolute left-[50%] text-[1.3em] font-david font-bold text-white md:text-black">
+      {char}
+    </span>
+  ));
+
   return (
     <div className="container relative flex md:flex-row flex-col-reverse md:py-32 py-0">
+      <div className="absolute xl:top-16 top-0 xl:left-[-50px] w-[135px] h-[135px] z-10 animate-spin-slow">
+        <p>{textRnd}</p>
+      </div>
       <div className="absolute md:block hidden w-[960px] h-[960px] xl:top-[-780px] lg:top-[-75%] top-[-94%] xl:left-[-580px] lg:left-[-68%] left-[-72%] border-slate-300 border-2 rounded-full -z-10"></div>
       <div className="absolute md:block hidden w-[960px] h-[960px] xl:top-[-680px] lg:top-[-65%] top-[-86%] xl:left-[-680px] lg:left-[-72%] left-[-80%] border-slate-300 border-2 rounded-full -z-10"></div>
       <div className="absolute md:block hidden w-[960px] h-[960px] xl:top-[-650px] lg:top-[-63%] top-[-85%] xl:left-[-550px] lg:left-[-65%] left-[-70%] border-slate-300 border-2 rounded-full -z-10"></div>

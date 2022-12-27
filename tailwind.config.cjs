@@ -10,6 +10,12 @@ module.exports = {
     backgroundImage: {
       "footer-form": "url('./src/assets/bg.svg')",
     },
+    animation: {
+      "spin-slow": "spin 10s linear infinite",
+    },
+    boxShadow: {
+      "3xl": "0px 0px 20px 0px #959595",
+    },
   },
   plugins: [],
 };
